@@ -6,13 +6,17 @@ body{
     font-size: 14px;
 
 }
+.btn-primary{
+    background-color: #00A5A4;
+    border-color: #00A5A4;
+}
 .welcome{
     font-size: 48px;
     letter-spacing: 10px;
 }
 .login-container{
     /*e; vh indica la altura que ocupa en la pantalla*/
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
 }
 .login-form{

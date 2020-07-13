@@ -2,9 +2,330 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tabla</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
 </head>
 <body>
 
+<header>
+    <div class="header encabeza">CONTROL DE DOCUMENTOS</div>
+</header>
+
+<div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table">
+                <div class="row">
+                    <div class="cell ventana">
+                        expediente
+                    </div>
+                    <div class="cell ventana">
+                        nombre_doc
+                    </div>
+                    <div class="cell ventana">
+                        tipo_doc
+                    </div>
+                    <div class="cell ventana">
+                        persona_id
+                    </div>
+                    <div class="cell ventana">
+                        fecha_entrega
+                    </div>
+                    <div class="cell ventana">
+                        fecha_vencimiento
+                    </div>
+                    <div class="cell ventana">
+                        usuario_id
+                    </div>
+                    <div class="cell ventana">
+                        estado
+                    </div>
+                </div>
+            </div>
+
+            <div class="table">
+                <div class="row searchs">
+                    <div class="table header titulos">
+                        <div class="cell titleSearch">
+                            <label for="expediente">Expediente:</label>
+                            <input type="text" id="expediente" name="expediente" placeholder="Ingrese Codigo">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="nombre_doc">nombre_doc</label>
+                            <input type="text" id="nombre_doc" name="nombre_doc" placeholder="Ingrese Nombre">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="tipo_doc">Tipo_doc</label>
+                            <input type="text" id="tipo_doc" name="tipo_doc" placeholder="Ingrese Tipo">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="persona_id">Persona_id:</label>
+                            <input type="text" id="persona_id" name="persona_id" placeholder="Ingrese ID">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="fecha_entrega">fecha_entrega:</label>
+                            <input type="text" id="fecha_entrega" name="fecha_entrega" placeholder="fecha entrega">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="fecha_vencimiento">fecha_vencimiento:</label>
+                            <input type="text" id="fecha_vencimiento" name="fecha_vencimiento" placeholder="fecha_vencimiento">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="usuario_id">usuario_id:</label>
+                            <input type="text" id="usuario_id" name="usuario_id" placeholder="usuario_id">
+                        </div>
+                        <div class="cell titleSearch">
+                            <label for="estado">estado:</label>
+                            <input type="text" id="estado" name="estado" placeholder="estado">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table">
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell" data-title="Expediente">
+                        CS004
+                    </div>
+                    <div class="cell" data-title="Nombre_doc">
+                        Inicio Academico 2020
+                    </div>
+                    <div class="cell" data-title="Tipo_doc">
+                        Carta
+                    </div>
+                    <div class="cell" data-title="Persona_id">
+                        5
+                    </div>
+                    <div class="cell" data-title="Fecha_entrega">
+                        2020-07-18
+                    </div>
+                    <div class="cell" data-title="Fecha_vencimiento">
+                        2020-07-27
+                    </div>
+                    <div class="cell" data-title="Usuario_id">
+                        1
+                    </div>
+                    <div class="cell" data-title="Estado">
+                        notificado
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
